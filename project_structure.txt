@@ -9,8 +9,20 @@
 
     /**
       * Предположительно основной арбочий файл
+      * функция define () - https://github.com/amdjs/amdjs-api/wiki/AMD
+      * определяются модули 
+      * configs/dependencies - возвращает массив с ссулкой вида "modules/newAuto/pages/search" в зависимости от текущего location.pathname
+      * library/flight-adaptation/lib/mixins/withAdaptation 
+      * modules/common/components/mixins/withUserData
+      * modules/common/components/data/bookmarks
+      * modules/impressions/components/ui/main/benchmark
+      * modules/impressions/components/ui/main/impressions
+      * modules/common/components/ui/header
+      * library/flight-adaptation/lib/components/adaptation
+      * 
       */
     index.js 
+    
     
     
     
