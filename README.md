@@ -580,7 +580,7 @@ API возвращает данные в формате JSON. Формат да�
 https://auto.ria.com/blocks_search_ajax/view/auto/15923375/?lang_id=2
 
 Ответ:
-
+<pre>
 {
   "current_timestamp": 1440489663.493,
   "additional_params": {
@@ -1079,3 +1079,4 @@ https://auto.ria.com/blocks_search_ajax/view/auto/15923375/?lang_id=2
   "black_list": 0
 }
 
+</pre>
