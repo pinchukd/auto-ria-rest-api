@@ -1083,7 +1083,7 @@ https://auto.ria.com/blocks_search_ajax/view/auto/15923375/?lang_id=2
 
 ##Поиск по каталогу
 
-https://auto.ria.com/blocks_search_ajax/search/?category_id=2&state[0]=0&s_yers[0]=0&po_yers[0]=0&currency=1&marka_id[0]=0&model_id[0]=0&countpage=10
+https://auto.ria.com/blocks_search_ajax/search/?category_id=2&state[0]=0&s_yers[0]=0&po_yers[0]=0&currency=1&marka_id[0]=0&model_id[0]=0&countpage=10&&page=0
 
 ответ
 
