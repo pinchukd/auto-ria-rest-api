@@ -1080,3 +1080,257 @@ https://auto.ria.com/blocks_search_ajax/view/auto/15923375/?lang_id=2
 }
 
 </pre>
+
+##Поиск по каталогу
+
+https://auto.ria.com/blocks_search_ajax/search/?category_id=2&state[0]=0&s_yers[0]=0&po_yers[0]=0&currency=1&marka_id[0]=0&model_id[0]=0&countpage=10
+
+ответ
+
+<pre>
+{
+  "additional_params": {
+    "lang_id": 2,
+    "page": 0,
+    "view_type_id": 0,
+    "target": "search",
+    "section": "auto",
+    "catalog_name": "",
+    "elastica": true,
+    "nodejs": true
+  },
+  "result": {
+    "search_result": {
+      "ids": [
+        "15980595",
+        "14598001",
+        "14159208",
+        "14440290",
+        "15986068",
+        "15833959",
+        "12872210",
+        "12724573",
+        "16002959",
+        "14852930"
+      ],
+      "count": 17041,
+      "last_id": 0,
+      "qs": {
+        "fields": [
+          "_id"
+        ],
+        "size": 10,
+        "from": 0,
+        "sort": {
+          "level": {
+            "order": "desc"
+          },
+          "_script": {
+            "script": "doc['is_hot'].value>0?1:0",
+            "type": "number",
+            "order": "desc"
+          },
+          "fishki": {
+            "order": "desc"
+          },
+          "add_date": {
+            "order": "desc"
+          }
+        },
+        "query": {
+          "filtered": {
+            "query": {
+              "match_all": {}
+            },
+            "filter": {
+              "and": [
+                {
+                  "exists": {
+                    "field": "auto_id"
+                  }
+                },
+                {
+                  "term": {
+                    "main_category": 2
+                  }
+                }
+              ]
+            }
+          }
+        }
+      },
+      "query_string": "category_id=2&state=0&s_yers=0&po_yers=0¤cy=1&marka_id=0&model_id=0&countpage=10&target=search&event=little&lang_id=2&page=0&limit_page=&last_id=0&last_search_id=0&saledParam=0&state_id=0&city_id=0&state_from=0&city_from=0&useOrigAutoTable=false&withoutStatus=false&with_photo=false&with_video=false&under_credit=0&confiscated_car=0&with_exchange=0&with_real_exchange=0&old_only=false&user_id=0&person_id=0&with_discount=false&auto_id_str=&black_user_id=0&order_by=0&is_online=false&last_send_id=false&withoutCache=false&with_last_id=false&color=0&color_id=0&gear_id=0&gearbox=0&top=0&drive_type=0&country=0¤cy_id=0&auto_repairs=0&power_name=0&powerFrom=0&powerTo=0&fuelRateFrom=0&fuelRateTo=0&custom=0&damage=0&type=0&metallic=0&engineVolumeFrom=0&engineVolumeTo=0&raceFrom=0&raceTo=0&sid=0&star_auto=0&start_date=&drive_id=0&door=0&price_ot=0&price_do=0&year=0&auto_ids_search_position=0&print_qs=0&last_auto_id=0&is_hot=0&deletedAutoSearch=0&can_be_checked=0&seatsFrom=0&seatsTo=0&wheelFormulaId=0&axleId=0&carryingTo=0&carryingFrom=0&company_id=0&company_type=0&matched_country=-1&q=&countResults="
+    },
+    "active_marka": null,
+    "active_model": null,
+    "active_state": null,
+    "active_city": null,
+    "revies": null,
+    "additional": {
+      "user_auto_positions": [],
+      "search_params": {
+        "all": {
+          "category_id": "2",
+          "state": [
+            "0"
+          ],
+          "s_yers": [
+            "0"
+          ],
+          "po_yers": [
+            "0"
+          ],
+          "currency": "1",
+          "marka_id": [
+            "0"
+          ],
+          "model_id": [
+            "0"
+          ],
+          "countpage": 10,
+          "excludeMM": [],
+          "city": [],
+          "auto_options": [],
+          "target": "search",
+          "event": "little",
+          "lang_id": 2,
+          "page": 0,
+          "limit_page": null,
+          "last_id": 0,
+          "last_search_id": 0,
+          "saledParam": 0,
+          "state_id": 0,
+          "city_id": 0,
+          "state_from": "0",
+          "city_from": 0,
+          "m_state": [],
+          "m_city": [],
+          "marka": [],
+          "model": [],
+          "mm_marka": [],
+          "mm_model": [],
+          "mm_marka_filtr": [],
+          "mm_model_filtr": [],
+          "useOrigAutoTable": false,
+          "withoutStatus": false,
+          "with_photo": false,
+          "with_video": false,
+          "under_credit": 0,
+          "confiscated_car": 0,
+          "with_exchange": 0,
+          "exchange_filter": [],
+          "with_real_exchange": 0,
+          "old_only": false,
+          "user_id": 0,
+          "person_id": 0,
+          "with_discount": false,
+          "auto_id_str": "",
+          "black_user_id": 0,
+          "order_by": 0,
+          "is_online": false,
+          "last_send_id": false,
+          "withoutCache": false,
+          "with_last_id": false,
+          "color": 0,
+          "color_id": 0,
+          "gear_id": 0,
+          "gearbox": 0,
+          "top": 0,
+          "drive_type": 0,
+          "country": 0,
+          "mm_country": [],
+          "mm_country_exeption": [],
+          "currency_id": 0,
+          "currencies_arr": [],
+          "auto_repairs": 0,
+          "power_name": 0,
+          "powerFrom": 0,
+          "powerTo": 0,
+          "hide_black_list": [],
+          "fuelRateFrom": 0,
+          "fuelRateTo": 0,
+          "custom": 0,
+          "damage": 0,
+          "body_id": [],
+          "bodyStyleId": [],
+          "type": 0,
+          "metallic": 0,
+          "engineVolumeFrom": 0,
+          "engineVolumeTo": 0,
+          "raceFrom": 0,
+          "raceTo": 0,
+          "sid": 0,
+          "star_auto": 0,
+          "start_date": "",
+          "drive_id": 0,
+          "door": 0,
+          "price_ot": 0,
+          "price_do": 0,
+          "year": 0,
+          "auto_ids_search_position": 0,
+          "print_qs": 0,
+          "last_auto_id": 0,
+          "is_hot": 0,
+          "deletedAutoSearch": 0,
+          "can_be_checked": 0,
+          "seatsFrom": 0,
+          "seatsTo": 0,
+          "wheelFormulaId": 0,
+          "axleId": 0,
+          "carryingTo": 0,
+          "carryingFrom": 0,
+          "company_id": 0,
+          "company_type": 0,
+          "matched_country": -1,
+          "q": "",
+          "bodystyle": []
+        },
+        "cleaned": {
+          "category_id": "2",
+          "state": [
+            "0"
+          ],
+          "s_yers": [
+            "0"
+          ],
+          "po_yers": [
+            "0"
+          ],
+          "currency": "1",
+          "marka_id": [
+            "0"
+          ],
+          "model_id": [
+            "0"
+          ],
+          "countpage": 10,
+          "excludeMM": [],
+          "city": [],
+          "auto_options": [],
+          "target": "search",
+          "event": "little",
+          "lang_id": 2,
+          "m_state": [],
+          "m_city": [],
+          "marka": [],
+          "model": [],
+          "mm_marka": [],
+          "mm_model": [],
+          "mm_marka_filtr": [],
+          "mm_model_filtr": [],
+          "exchange_filter": [],
+          "mm_country": [],
+          "mm_country_exeption": [],
+          "currencies_arr": [],
+          "hide_black_list": [],
+          "body_id": [],
+          "bodyStyleId": [],
+          "matched_country": -1,
+          "bodystyle": []
+        }
+      },
+      "query_string": "category_id=2&state[0]=0&s_yers[0]=0&po_yers[0]=0¤cy=1&marka_id[0]=0&model_id[0]=0&countpage=10"
+    }
+  }
+}
+</pre>
