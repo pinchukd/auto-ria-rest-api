@@ -575,4 +575,507 @@ API возвращает данные в формате JSON. Формат да�
 
 ##Получение информации об автомобиле
 
+Запрос:
+
 https://auto.ria.com/blocks_search_ajax/view/auto/15923375/?lang_id=2
+
+Ответ:
+
+{
+  "current_timestamp": 1440489663.493,
+  "additional_params": {
+    "lang_id": 2,
+    "view_type_id": 0,
+    "user_id": null
+  },
+  "result": {
+    "statistic_data": {
+      "views": 0
+    },
+    "relinked_description": "",
+    "is_auto_added_by_partner": false,
+    "auto_data": {
+      "auto_id": 15923375,
+      "marka_id": 55,
+      "model_id": 2197,
+      "version": "1.2T AT SE+ (Navi)",
+      "body_id": 5,
+      "door": 5,
+      "gear_id": 5,
+      "color_id": 13,
+      "metallic": 1,
+      "fuel_id": 1,
+      "yers": 2015,
+      "engineVolume": 1.2,
+      "race": {
+        "race": 0,
+        "raceInt": 0
+      },
+      "raceInt": 0,
+      "description": "* 25 800  живыми деньгами!   NEW! 2015!  В НАЛИЧИИ! Камера заднего вида с 7-дюймовым цветным сенсорным дисплеем+НАВИГАЦИОННАЯ СИСТЕМА;ABS;(NCC)-КОМПЛЕКС СИСТЕМ УПРАВЛЕНИЯ ШАССИ;(ESP)-Электроная система динамичической стабилизации;(EBD)-Электроная система распределения тормозных усилий на каждое колесо отдельно;(ATC)-СИСТЕМА АКТИВНОГО КОНТРОЛЯ ТРАЕКТОРИИ;(TCS)-Электроная противобуксовочная система;(NBA)-Электроный усилитель экстренного торможения;(AEB)-СИСТЕМА АКТИВНОГО ТОРМОЖЕНИЯ ДВИГАТЕЛЕМ;(HSA)-Система помощи при старте вгору; Датчики:Дождя+ Освещенности+Внешней температуры; ЭЛЕКТРИЧЕСКИЙ ОБОГРЕВ ЛОБОВОГО СТЕКЛА;Электро-усилитель руля с изменяемым усилием+двухрежимная система-NORMAL и SPORT;ЦЗ с ДУ+иммобилайзер;AM/FM/CD/MP3 магнитола+6-динамиков с Bluetooth(телефон)+аудиовходAUX+входUSB-устройств и iPod/iPhone+система объемного звучания-управление системой на руле(свободные руки);Бортовой компьютер с большим многофункциональным ЖК-дисплеем-управление с руля;КЛИРЕНС=200мм",
+      "price": 609400,
+      "currency_id": 3,
+      "auctionPossible": 1,
+      "onRepairParts": 0,
+      "priceMain": 0,
+      "user_id": 1027429,
+      "add_date": "2015-08-19T06:08:56.000Z",
+      "update_date": "2015-08-21T11:13:29.000Z",
+      "status_id": 0,
+      "expiried_date": "2015-08-25T07:01:03.000Z",
+      "partner_id": 1,
+      "ip": 3287182758,
+      "with_photo": 71,
+      "state_id": 4,
+      "city_id": 4,
+      "saled_date": "0000-00-00 00:00:00",
+      "is_new": 0,
+      "damage": 0,
+      "custom": 0,
+      "main_photo_id": 134842664,
+      "group_id": 0,
+      "is_exchange": 1,
+      "exchangeTypeId": 0,
+      "page_rank": 0,
+      "top20": 0,
+      "top20_regional": 0,
+      "send_comments": 0,
+      "under_credit": 0,
+      "with_video": 0,
+      "dont_comment": 0,
+      "category_id": "1",
+      "main_category": 1,
+      "drive_id": 2,
+      "VIN": "SJNFEAJ11U1307576",
+      "xml_import_id": 0,
+      "is_hot": 0,
+      "fishki": 0,
+      "power": 115,
+      "power_name": 1,
+      "confiscated_car": 0,
+      "vip": 0,
+      "checked_auto_ria": 0,
+      "matched_country": 826,
+      "country_ip": "xx",
+      "can_be_checked": 0,
+      "seats": 5,
+      "carrying": 0,
+      "from_archive": 0,
+      "years": 2015,
+      "color_data": {
+        "lang_id": 2,
+        "color_id": 13,
+        "name": "Красный",
+        "eng": "red",
+        "genitive": "Красного",
+        "dative": "Красному",
+        "accusative": "Красный",
+        "ablative": "Красным",
+        "locative": "Красном",
+        "adjective": "Красный",
+        "adjective_female": "Красная",
+        "adjective_plural": "Красные",
+        "metallic": 1
+      },
+      "drive_data": {
+        "drive_id": 2,
+        "name": "Передний"
+      },
+      "body_category": {
+        "sub_cat_id": 5,
+        "name": "Внедорожник / Кроссовер",
+        "body_rewrite": "vnedorozhnik-krossover"
+      },
+      "gearbox_data": {
+        "lang_id": 2,
+        "gearbox_id": 5,
+        "name": "Вариатор",
+        "eng": "variator",
+        "slang": "вариатор,коробка вариатор",
+        "slang_ablative": "вариатором,коробкой вариатором"
+      },
+      "auto_test": 0,
+      "marka_data": {
+        "slang": "Ниссан",
+        "lang_id": 2,
+        "marka_id": 55,
+        "name": "Nissan",
+        "set_cat": "1,3,4,5,6,7",
+        "main_category": 1,
+        "active": 1,
+        "country_id": 392,
+        "eng": "nissan",
+        "count": 6039,
+        "fit": 0,
+        "rewrite": "nissan"
+      },
+      "model_data": {
+        "slang": "Кашкай",
+        "lang_id": 2,
+        "model_id": 2197,
+        "marka_id": 55,
+        "name": "Qashqai",
+        "set_cat": "1",
+        "active": 1,
+        "is_group": 0,
+        "parent_id": 0,
+        "eng": "qashqai",
+        "count": 390,
+        "fit": 0,
+        "rewrite": "qashqai"
+      },
+      "exchange": {
+        "is_exchange": 1,
+        "exchangeTypeId": 0,
+        "exchangeTypes": [
+          "Любой",
+          "Моя доплата",
+          "Ваша доплата",
+          "Равноценный"
+        ]
+      },
+      "fuel_data": {
+        "fuel_id": 1,
+        "name": "Бензин",
+        "eng": "benzin",
+        "rates": [],
+        "smallTitle": ".",
+        "title": "Город: не указано, Трасса: не указано, Смешанный: не указано"
+      }
+    },
+    "description": "* 25 800  живыми деньгами!   NEW! 2015!  В НАЛИЧИИ! Камера заднего вида с 7-дюймовым цветным сенсорным дисплеем+НАВИГАЦИОННАЯ СИСТЕМА;ABS;(NCC)-КОМПЛЕКС СИСТЕМ УПРАВЛЕНИЯ ШАССИ;(ESP)-Электроная система динамичической стабилизации;(EBD)-Электроная система распределения тормозных усилий на каждое колесо отдельно;(ATC)-СИСТЕМА АКТИВНОГО КОНТРОЛЯ ТРАЕКТОРИИ;(TCS)-Электроная противобуксовочная система;(NBA)-Электроный усилитель экстренного торможения;(AEB)-СИСТЕМА АКТИВНОГО ТОРМОЖЕНИЯ ДВИГАТЕЛЕМ;(HSA)-Система помощи при старте вгору; Датчики:Дождя+ Освещенности+Внешней температуры; ЭЛЕКТРИЧЕСКИЙ ОБОГРЕВ ЛОБОВОГО СТЕКЛА;Электро-усилитель руля с изменяемым усилием+двухрежимная система-NORMAL и SPORT;ЦЗ с ДУ+иммобилайзер;AM/FM/CD/MP3 магнитола+6-динамиков с Bluetooth(телефон)+аудиовходAUX+входUSB-устройств и iPod/iPhone+система объемного звучания-управление системой на руле(свободные руки);Бортовой компьютер с большим многофункциональным ЖК-дисплеем-управление с руля;КЛИРЕНС=200мм",
+    "from_archive": 0,
+    "saled_ok": 0,
+    "VIN": "SJNFEAJ11U1307576",
+    "partner_id": 1,
+    "auto_archive_data": {
+      "status": 0
+    },
+    "other_data": {
+      "zapchasti_link": "http://zapchasti.ria.com/nissan/qashqai/?utm_source=auto&utm_medium=link_zapchasti&utm_campaign=obyava",
+      "is_hot": 0,
+      "super": 0,
+      "can_be_checked": 0,
+      "exchangeTypeId": 0,
+      "fishki": 0,
+      "with_video": 0,
+      "page_rank": 0,
+      "top20": 0,
+      "top20_regional": 0,
+      "send_comments": 0,
+      "dont_comment": 0,
+      "is_bold": 0
+    },
+    "user_phones": [
+      {
+        "phone_id": "674945377",
+        "user_id": "1027429",
+        "phone": "0673140438",
+        "region_code_size": "3",
+        "checked": "1",
+        "is_mobile": "1",
+        "prio": "0",
+        "country_code": "38",
+        "phone_code": "067",
+        "phone_number": "3140438",
+        "phone_formatted": "(067) 314-04-38",
+        "additional_data": {
+          "phone_id": "674945377",
+          "call_from": "08:00",
+          "call_till": "24:00",
+          "call_name": "Павел"
+        }
+      },
+      {
+        "phone_id": "674945384",
+        "user_id": "1027429",
+        "phone": "0673140435",
+        "region_code_size": "3",
+        "checked": "1",
+        "is_mobile": "1",
+        "prio": "0",
+        "country_code": "38",
+        "phone_code": "067",
+        "phone_number": "3140435",
+        "phone_formatted": "(067) 314-04-35",
+        "additional_data": {
+          "phone_id": "674945384",
+          "call_from": "08:00",
+          "call_till": "24:00",
+          "call_name": "Александр"
+        }
+      },
+      {
+        "phone_id": "674945386",
+        "user_id": "1027429",
+        "phone": "0673802027",
+        "region_code_size": "3",
+        "checked": "1",
+        "is_mobile": "1",
+        "prio": "0",
+        "country_code": "38",
+        "phone_code": "067",
+        "phone_number": "3802027",
+        "phone_formatted": "(067) 380-20-27",
+        "additional_data": {
+          "phone_id": "674945386",
+          "call_from": "08:00",
+          "call_till": "24:00",
+          "call_name": "Денис"
+        }
+      },
+      {
+        "phone_id": "674945402",
+        "user_id": "1027429",
+        "phone": "0673140436",
+        "region_code_size": "3",
+        "checked": "1",
+        "is_mobile": "1",
+        "prio": "0",
+        "country_code": "38",
+        "phone_code": "067",
+        "phone_number": "3140436",
+        "phone_formatted": "(067) 314-04-36",
+        "additional_data": {
+          "phone_id": "674945402",
+          "call_from": "",
+          "call_till": "",
+          "call_name": "ПРОДАЖ Б/У авто Сергей"
+        }
+      }
+    ],
+    "matched_country": {
+      "id": 826,
+      "name": "Англия",
+      "eng": "united-kingdom"
+    },
+    "power_data": {
+      "power": {
+        "1": {
+          "rate": 115,
+          "name": "л.с."
+        },
+        "2": {
+          "rate": 84.64,
+          "name": "кВт"
+        }
+      },
+      "main": 1
+    },
+    "category_data": {
+      "category_id": 1,
+      "main_category": 1,
+      "category_name": "Легковые",
+      "category_path": "legkovie"
+    },
+    "user_data": {
+      "user_id": "1027429",
+      "ip": 3287182758,
+      "registration_date": "2010-09-07 10:39:22",
+      "city_id": "4",
+      "state_id": "4",
+      "firstName": "Сергей",
+      "lastName": "",
+      "hide_ads_status": 0,
+      "hide_registration": 0,
+      "contact_via_email": 1,
+      "isAutoseller": true,
+      "show_converted_price": 1,
+      "postalAddres": "ул.Свободы,15/1А",
+      "show_page": 0
+    },
+    "location_data": {
+      "state_id": 4,
+      "state": {
+        "lang_id": 2,
+        "stateID": 4,
+        "name": "Хмельницкая",
+        "eng_name": "khmelnickij",
+        "declension": "Хмельницкой области",
+        "center_declension": "Хмельницкого",
+        "region_name": "Хмельницкий",
+        "eng": "khmelnickij"
+      },
+      "city": {
+        "lang_id": 2,
+        "cityID": 4,
+        "stateID": 4,
+        "name": "Хмельницкий",
+        "eng": "khmelnickij",
+        "declension": "Хмельницкий"
+      }
+    },
+    "company_data": [],
+    "photo_data": {
+      "count": 71,
+      "photos_count": 71,
+      "photo": {
+        "photo_id": 134842664,
+        "auto_id": 15923375,
+        "status": 0,
+        "checked": 1,
+        "standard": 0,
+        "date_add": "2015-07-21 10:48:12",
+        "description": null,
+        "url": "auto/photo/13484/1348426/134842664/134842664.jpg",
+        "image": "auto/photo/13484/1348426/134842664/134842664.jpg",
+        "little": 1,
+        "resize": 1,
+        "ftp": 1,
+        "ftp_count": 0,
+        "flag": 0,
+        "is_main": 0,
+        "checksum": "",
+        "size": 0,
+        "is_video": 0,
+        "original_lose": 0,
+        "seo_link": "auto/photo/nissan_qashqai__134842664.jpg"
+      },
+      "photos": [
+        {
+          "seo_link": "auto/photo/nissan_qashqai__134842494.jpg",
+          "photo_id": 134842494
+        },
+        {
+          "seo_link": "auto/photo/nissan_qashqai__134842639.jpg",
+          "photo_id": 134842639
+        },
+        {
+          "seo_link": "auto/photo/nissan_qashqai__134842642.jpg",
+          "photo_id": 134842642
+        },
+        {
+          "seo_link": "auto/photo/nissan_qashqai__134842648.jpg",
+          "photo_id": 134842648
+        },
+        {
+          "seo_link": "auto/photo/nissan_qashqai__134842649.jpg",
+          "photo_id": 134842649
+        },
+        {
+          "seo_link": "auto/photo/nissan_qashqai__134842654.jpg",
+          "photo_id": 134842654
+        },
+        {
+          "seo_link": "auto/photo/nissan_qashqai__134842655.jpg",
+          "photo_id": 134842655
+        },
+        {
+          "seo_link": "auto/photo/nissan_qashqai__134842658.jpg",
+          "photo_id": 134842658
+        }
+      ]
+    },
+    "date_data": {
+      "current_timestamp": 1440489663,
+      "add": "2015-08-19 09:08:56",
+      "add_timestamp": 1439964536,
+      "expiried": "2015-08-25 10:01:03",
+      "expiried_timestamp": 1440486063,
+      "update": "2015-08-21 14:13:29",
+      "saled": "0000-00-00 00:00:00",
+      "date_add": {
+        "year": "2010",
+        "short_year": "10",
+        "month": "09",
+        "full_month": "09",
+        "day": "07",
+        "hours": "10",
+        "minutes": "39",
+        "seconds": "22",
+        "year_differential": 71068
+      },
+      "publication_expiried_date": "2015-11-19 09:08:56",
+      "publication_expiried_timestamp": 1447916936,
+      "publication_status_id": 2
+    },
+    "autosalon_data": {
+      "autosalon_id": 551,
+      "user_id": 1027429,
+      "name": "Nissan  Лига-II",
+      "geo_X": 26.998573299497,
+      "geo_Y": 49.432076861941,
+      "geo_Zoom": 150,
+      "website": "http://www.liga-nissan.km.ua",
+      "announce": "<p style=\"text-align: justify;\"><strong>С 19.04.2006 Автоцентр &laquo;ЛИГА-II&raquo; является авторизированным официальным дилером <a href=\"http://www.liga-nissan.km.ua/nissan-models-3.html\">Nissan</a> в Украине, расположенный в городе Хмельницкий.</strong></p>\r\n<p style=\"text-align: justify;\"><a href=\"http://www.liga-nissan.km.ua\">Автоцентр &laquo;ЛИГА-ІІ&raquo;</a> &mdash; это концептуальный <strong>3S</strong> комплекс (<strong>S</strong>ale  &mdash; салон, <strong>S</strong>ervice &mdash; сервис,<strong> S</strong>pareparts &mdash; запчасти), который соответствует всем высоким корпоративным стандартам Nissan.</p>\r\n<p style=\"text-align: justify;\">C 2008 года <a href=\"http://www.liga-nissan.km.ua  \">Автоцентр &laquo;ЛИГА-ІІ&raquo;</a> также является авторизированным официальным сервис-дилером Infiniti в Украине.<br />\r\n<a href=\"http://www.liga-nissan.km.ua  \">Автоцентр &laquo;ЛИГА-ІІ&raquo;</a> осуществляет продажу новых автомобилей <a href=\"http://www.liga-nissan.km.ua/nissan-models-3.html\">Nissan</a>, гарантийное и послегарантийное обслуживание автомобилей <a href=\"http://www.liga-nissan.km.ua/nissan-models-3.html\">Nissan</a> и Infiniti, покрасочные и кузовные работы, продажу оригинальных запасных частей и аксессуаров к автомобилям <a href=\"http://www.liga-nissan.km.ua/nissan-models-3.html\">Nissan</a> и Infiniti.<br />\r\nДополнительно дилерский центр предлагает своим клиентам услуги по оформлению кредита, страхованию автомобиля и регистрации в МРЕО ГАИ. На территории центра есть большой паркинг, уютный кафе-бар, комфортная зона отдыха и ожидания.</p>",
+      "logo": "auto/new_autosalon/0/5/551/551.jpg",
+      "created_at": "2011-06-25T08:42:14.000Z",
+      "description": "<p style=\"text-align: center;\"><img src=\"http://img.ria.ua/photos/auto/text_photos/0/23/2354/2354.jpg\" alt=\"\" /></p>\r\n<p>&nbsp;</p>",
+      "exlusive_marka": 0,
+      "comments_disabled": 0,
+      "show_old_count": 1,
+      "exlusive_state": 0,
+      "paket_id": 1,
+      "is_test_drive": 0,
+      "active": 1,
+      "updated_at": "2015-08-02T22:30:14.000Z",
+      "manager_id": 0,
+      "date_closed": "2016-02-15T22:00:00.000Z",
+      "payment_item_id": 35886508,
+      "start_shipping": "2015-08-18T21:00:00.000Z",
+      "price": 4560,
+      "work_time_mon_fr": "[\"09:00\",\"19:00\",\"1\",\"5\"]",
+      "work_time_sat": "[\"09:00\",\"17:00\",\"6\"]",
+      "work_time_sun": "[\"10:00\",\"15:00\",\"7\"]",
+      "state_id": 4,
+      "city_id": 4,
+      "company_type": 1,
+      "address": "ул.Свободы,15/1А",
+      "cityID": 4,
+      "stateID": 4,
+      "cityName": "Хмельницкий",
+      "packageName": "Старт",
+      "salon_activ": 1,
+      "enable": 0,
+      "outer_url": "http://www.liga-nissan.km.ua"
+    },
+    "price_data": {
+      "currency_id": 3,
+      "main_price": 609400,
+      "prices_curr_rate": {
+        "1": 0.04526,
+        "2": 0.04012,
+        "3": 1
+      },
+      "currencies": {
+        "1": {
+          "id": 1,
+          "name": "USD",
+          "position": 0,
+          "denotation": "$"
+        },
+        "2": {
+          "id": 2,
+          "name": "EUR",
+          "position": 0,
+          "denotation": "&euro;"
+        },
+        "3": {
+          "id": 3,
+          "name": "UAH",
+          "position": 1,
+          "denotation": "грн."
+        }
+      },
+      "prices": {
+        "1": 27581.444,
+        "2": 24449.128,
+        "3": 609400
+      },
+      "oldCurrencies": 3,
+      "oldPrices": {
+        "1": 0,
+        "2": 0,
+        "3": 0
+      }
+    },
+    "img_data": {},
+    "levelData": {
+      "level": 216,
+      "expire": "2015-08-26T06:08:57.000Z",
+      "hotType": 1
+    }
+  },
+  "black_list": 0
+}
+
